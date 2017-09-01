@@ -1,0 +1,49 @@
+.green{
+	background: green;
+}
+.green:hover{
+	background: yellow;
+}
+.green:active{
+	background: red;
+} 
+.Purple{
+	background: purple;
+}
+.Purple:hover{
+	background: brown;
+}
+.Purple:active{
+	background: gold;
+}
+input:focus {
+    border-color: green;
+}
+.gray:nth-child(even){
+	background: gray;
+}
+.red:first-letter{
+	font-size: 2em;
+	font-family: Georgia;
+	color: red;
+}
+p:after {
+	content: "*";
+}
+p:before {
+	content: "\2602";
+}
+.block{
+    position: relative;
+    left: 20px;
+    width: 35px;
+    height: 25px;
+    background: black;
+}
+.block::after {
+    content: ''; 
+    position: absolute; 
+    top: 2px; right: 27px;
+    border: 10px solid transparent;
+    border-right: 20px solid black;
+}
